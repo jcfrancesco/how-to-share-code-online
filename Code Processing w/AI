@@ -1,0 +1,905 @@
+{
+  "intents": [
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Salut, le conseiller !"
+        },
+        {
+          "text": "Puis-je te poser des questions?"
+        },
+        {
+          "text": "âllo, âllo !"
+        },
+        {
+          "text": "Je voudrais commencer."
+        },
+        {
+          "text": "Je suis heureux de te parler pour la première fois !"
+        },
+        {
+          "text": "Allez, commençons !"
+        },
+        {
+          "text": "Bonjour , c'est votre support informatique , qu'est ce que je peux faire pour vous ?"
+        },
+        {
+          "text": "Bonjour, qui êtes-vous?"
+        },
+        {
+          "text": "Bonjour, quoi de neuf ?"
+        },
+        {
+          "text": "Commencez dès le début s'il vous plaît !"
+        },
+        {
+          "text": "Comment ça se passe aujourd'hui ?"
+        },
+        {
+          "text": "Comment ça va ce soir?"
+        },
+        {
+          "text": "Comment se passe votre journée ?"
+        },
+        {
+          "text": "Comment tu te sens?"
+        },
+        {
+          "text": "Comment va tout le monde ?"
+        },
+        {
+          "text": "Est-ce que les gens sont gentils avec vous?"
+        },
+        {
+          "text": "Est-ce que vous passez une bonne journée?"
+        },
+        {
+          "text": "J'aime parler. Toi aussi ?"
+        },
+        {
+          "text": "J'ai pensé que je pourrais juste te dire bonjour !"
+        },
+        {
+          "text": "Tu vas bien ?"
+        }
+      ],
+      "description": "Saluez le bot"
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Tu es gentil!"
+        },
+        {
+          "text": "Tu es bon!"
+        },
+        {
+          "text": "Tu es adorable!"
+        },
+        {
+          "text": "Tu bosses bien!"
+        },
+        {
+          "text": "Je suis vraiment surpris par ton intelligence!"
+        },
+        {
+          "text": "Vous êtes vraiment utile."
+        },
+        {
+          "text": "Vous êtes un sympa!"
+        },
+        {
+          "text": "Vous êtes génial!"
+        },
+        {
+          "text": "Vous êtes formidable! Merci!"
+        },
+        {
+          "text": "Vous êtes formidable!"
+        },
+        {
+          "text": "Tu te débrouilles plutôt bien!"
+        },
+        {
+          "text": "Tu es vraiment cool!"
+        },
+        {
+          "text": "Tu es vachement cool!"
+        },
+        {
+          "text": "Tu es tellement amusant!"
+        },
+        {
+          "text": "Tu es si sage!"
+        },
+        {
+          "text": "Tu es si intelligent, c'est incroyable!"
+        },
+        {
+          "text": "Tu es plutôt intelligent!"
+        },
+        {
+          "text": "Tu es plutôt doué!"
+        },
+        {
+          "text": "Tu es le meilleur!"
+        },
+        {
+          "text": "Tu es drôle!"
+        }
+      ],
+      "description": "Exprimer un sentiment positif ou de la gratitude"
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Passe une bonne journée !"
+        },
+        {
+          "text": "OK, merci. Au revoir !"
+        },
+        {
+          "text": "Ok, c'est tout ce dont j'ai besoin pour l'instant."
+        },
+        {
+          "text": "Nous allos rediscuter bientôt."
+        },
+        {
+          "text": "Merci beaucoup, on se reparle plus tard."
+        },
+        {
+          "text": "Je voudrais arrêter là."
+        },
+        {
+          "text": "Je vais vous reparler bientôt."
+        },
+        {
+          "text": "Je vais te parler plus tard !"
+        },
+        {
+          "text": "Je rediscuterai avec vous plus tard."
+        },
+        {
+          "text": "Je pars maintenant, à plus !"
+        },
+        {
+          "text": "Je n'ai plus de questions."
+        },
+        {
+          "text": "Je m'en vais maintenant."
+        },
+        {
+          "text": "Je dois partir maintenant."
+        },
+        {
+          "text": "J'ai besoin d'une pause, au revoir !"
+        },
+        {
+          "text": "Donc, je vous remercie beaucoup de votre aide. Je vous souhaite une bonne journée !"
+        },
+        {
+          "text": "D'accord merci. Au revoir!"
+        },
+        {
+          "text": "C'était un plaisir de chatter avec vous !"
+        },
+        {
+          "text": "C'était sympa de bavarder avec toi!"
+        },
+        {
+          "text": "C'est tout, merci."
+        },
+        {
+          "text": "Pouvons-nous arrêter ?"
+        }
+      ],
+      "description": "Terminez la conversation"
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Va te faire foutre!"
+        },
+        {
+          "text": "Tu m'énerves!"
+        },
+        {
+          "text": "Tu me saoule!"
+        },
+        {
+          "text": "Tu me fais chier!"
+        },
+        {
+          "text": "Tu es nul."
+        },
+        {
+          "text": "Tu es inutile!"
+        },
+        {
+          "text": "Tu es chiant!"
+        },
+        {
+          "text": "Tu es bête!"
+        },
+        {
+          "text": "T'es bizarre."
+        },
+        {
+          "text": "Tais-toi!"
+        },
+        {
+          "text": "Putain de robot!"
+        },
+        {
+          "text": "Programme stupide !"
+        },
+        {
+          "text": "Je veux parler à une de personne vivante!"
+        },
+        {
+          "text": "Idiot!"
+        },
+        {
+          "text": "Espece de boîte de conserve!"
+        },
+        {
+          "text": "Connard!"
+        },
+        {
+          "text": "Ce n'est pas vrai!"
+        },
+        {
+          "text": "Arrête de m'énerver!"
+        },
+        {
+          "text": "Je te déteste."
+        },
+        {
+          "text": "Tu ne sais rien faire!"
+        }
+      ],
+      "description": "Exprimer des commentaires défavorables"
+    },
+    {
+      "intent": "horaires",
+      "examples": [
+        {
+          "text": "quand pouvons-nous vous écrire ?"
+        },
+        {
+          "text": "quand fonctionne votre support ?"
+        },
+        {
+          "text": "quand êtes-vous ouvert ?"
+        },
+        {
+          "text": "Quand répondez-vous ?"
+        },
+        {
+          "text": "Quels sont vos horaires ?"
+        },
+        {
+          "text": "Etes-vous ouverts demain ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Est-ce que t'es un ordinateur?"
+        },
+        {
+          "text": "Comment pouvez-vous prouver que vous êtes un humain?"
+        },
+        {
+          "text": "Comment puis-je parler à Watson?"
+        },
+        {
+          "text": "Connecte-moi avec une personne réelle."
+        },
+        {
+          "text": "Dis-moi la vérité, qui est-ce que tu es?"
+        },
+        {
+          "text": "Dites-moi, qui êtes-vous?"
+        },
+        {
+          "text": "Dites-moi, êtes-vous un humain ou non?"
+        },
+        {
+          "text": "Est-ce que je discute avec un humain?"
+        },
+        {
+          "text": "Est-ce que je parle à un Bot?"
+        },
+        {
+          "text": "Est-ce que je parle à une personne ou suis-je en train de parler à une IA?"
+        },
+        {
+          "text": "Est-ce que je parle à Watson?"
+        },
+        {
+          "text": "Je parle avec qui?"
+        },
+        {
+          "text": "Pourrai-je parler un être humain s'il vous plaît ?"
+        },
+        {
+          "text": "Pouvez-vous me connecter à une personne en direct?"
+        },
+        {
+          "text": "Pouvez-vous être honnête avec moi?"
+        },
+        {
+          "text": "Qui es-tu vraiment?"
+        },
+        {
+          "text": "Êtes-vous réel?"
+        },
+        {
+          "text": "Êtes-vous un homme ou une femme?"
+        },
+        {
+          "text": "Êtes-vous un humain ou un robot?"
+        },
+        {
+          "text": "Vous êtes quoi, un ordinateur?"
+        }
+      ],
+      "description": "Demandez si vous parlez à un humain ou à un bot"
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Y a-t-il d'autre domaines avec lesquels aide l'Agent Virtuel?"
+        },
+        {
+          "text": "Puis-je récupérer les interactions dans un agent virtuel ?"
+        },
+        {
+          "text": "Puis-je avoir une liste de sujets disponibles auxquels vous pouvez m'aider?"
+        },
+        {
+          "text": "Pouvez-vous lister les possibilités de la rubrique d'aide?"
+        },
+        {
+          "text": "Pourquoi est-ce qu'il n'y a pas d'option de fermer la session dans 'Agent Virtuel'?"
+        },
+        {
+          "text": "J'ai besoin de votre aide pour la création de l'agent virtuel."
+        },
+        {
+          "text": "Dans quelles autres questions pouvez-vous m'aider?"
+        },
+        {
+          "text": "Comment puis-je configurer mes préférences dans l'Agent Virtuel?"
+        },
+        {
+          "text": "Bonjour. Quelle sorte de choses pouvez-vous faire pour moi?"
+        },
+        {
+          "text": "Bonjour, pouvez-vous énumérer les domaines dans lequels vous pouvez fournir de l'aide?"
+        },
+        {
+          "text": "Avez-vous des limites ?"
+        },
+        {
+          "text": "Avez-vous des capacités d'apprentissage ?"
+        },
+        {
+          "text": "Ai-je besoin de l'espace de travail du service de conversation pour ajouter une fonctionnalité personnalisée?"
+        },
+        {
+          "text": "Puis-je relier mon espace de travail avec un agent virtuel?"
+        },
+        {
+          "text": "Puis-je utiliser la fenêtre de prévisualisation pour tester le déroulement de ma conversation ?"
+        },
+        {
+          "text": "Puis-je voir 4 questions les plus fréquentes?"
+        },
+        {
+          "text": "Quelles sont les options avec lesquelles vous pouvez m'aider?"
+        },
+        {
+          "text": "Quels sont les options que je peux avoir de plus en utlisant un agent virtuel ?"
+        },
+        {
+          "text": "Qu'est-ce que l'option Désactiver tout ?"
+        },
+        {
+          "text": "Savez-vous faire la traduction ?"
+        }
+      ],
+      "description": "Demander des capacités du bot"
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Êtes-vous un homme ou une femme ou un robot?"
+        },
+        {
+          "text": "Écris-tu le portugais ?"
+        },
+        {
+          "text": "Abus de chatbot, est-ce possible ?"
+        },
+        {
+          "text": "Avez vous un ou des surnoms?"
+        },
+        {
+          "text": "Avez-vous un nom de famille?"
+        },
+        {
+          "text": "Depuis combien de temps effectuez-vous cette fonction?"
+        },
+        {
+          "text": "Est-ce que l'agent virtuel est toujours disponible ?"
+        },
+        {
+          "text": "Es-tu intelligent ?"
+        },
+        {
+          "text": "Etes-vous adaptés pour le service et la relation client ?"
+        },
+        {
+          "text": "Les chatbots, que sont-ils exactement capables de faire ?"
+        },
+        {
+          "text": "Pouvez-vous m'en dire plus sur vous?"
+        },
+        {
+          "text": "Pouvez-vous me permettre de réserver ou commander des billets ?"
+        },
+        {
+          "text": "Pouvez-vous offrir un support aux utilisateurs internes?"
+        },
+        {
+          "text": "Présentez-vous !"
+        },
+        {
+          "text": "Puis-je demander des conseils dans des questions juridiques ?"
+        },
+        {
+          "text": "Quelle est la technologie utilisée par les agents virtuels ?"
+        },
+        {
+          "text": "Quels sont vos centres d'intérêt ?"
+        },
+        {
+          "text": "Qu'est-ce que tu n'aimes pas?"
+        },
+        {
+          "text": "Salut, parles-tu l'espagnol ?"
+        }
+      ],
+      "description": "Demander des attributs génériques personnels"
+    },
+    {
+      "intent": "actualités",
+      "examples": [
+        {
+          "text": "Quelles actualités ?"
+        },
+        {
+          "text": "Quelles sont les dernières informations ?"
+        },
+        {
+          "text": "Quelles informations actuelles ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Existe-t-il un numéro que je peux composer pour parler à opérateur en direct ?"
+        },
+        {
+          "text": "Y a-t-il un numéro que je peux composer et rejoindre une personne réelle qui peut m'aider?"
+        },
+        {
+          "text": "Veuillez me connecter à un gestionnaire."
+        },
+        {
+          "text": "Puis-je parler à un représentant du service humain maintenant ?"
+        },
+        {
+          "text": "Puis-je parler à un agent à propos de mon compte ?"
+        },
+        {
+          "text": "Pouvez-vous, s'il vous plaît, diriger mon appel vers un agent humain? Je voudrais parler directement avec un être humain."
+        },
+        {
+          "text": "Pouvez-vous me mettre en contact avec un agent, s'il vous plaît ? Ma conversation a été coupée."
+        },
+        {
+          "text": "Personne ne répond au téléphone !"
+        },
+        {
+          "text": "Laissez-moi parler à votre patron maintenant !"
+        },
+        {
+          "text": "Je voudrais parler avec un agent en direct, s'il vous plaît."
+        },
+        {
+          "text": "Je veux parler avec un représentant, s'il vous plaît."
+        },
+        {
+          "text": "Je veux parler au directeur ! Votre agent était inutile !"
+        },
+        {
+          "text": "Je souhaite parler à un agent humain du service client."
+        },
+        {
+          "text": "Je souhaite etre mis en relation avec un agent."
+        },
+        {
+          "text": "Je pense qu'il faut me connecter avec un opérateur."
+        },
+        {
+          "text": "Je dois parler à une personne réelle plutôt qu'un système de réponse automatisé, s'il vous plaît."
+        },
+        {
+          "text": "J'aimerais parler à un agent humain, s'il vous plaît."
+        },
+        {
+          "text": "Existe-t-il un numéro de service client qui je peux utiliser et parler à  un agent directement ?"
+        },
+        {
+          "text": "Bon, maintenant je veux parler à un agent à propos de certains frais."
+        },
+        {
+          "text": "Bonjour pourriez-vous me mettre en relation avec un agent en ligne?"
+        }
+      ],
+      "description": "Demander un agent humain"
+    },
+    {
+      "intent": "article",
+      "examples": [
+        {
+          "text": "Quel article lire en 10 minutes ?"
+        },
+        {
+          "text": "Quel article conseiller ?"
+        },
+        {
+          "text": "quel article lire cette semaine ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [],
+      "description": "Exprimer ses inquiétudes concernant la sécurité du bot"
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Peux-tu raconter une blague?"
+        },
+        {
+          "text": "Peux-tu dire un truc drôle?"
+        },
+        {
+          "text": "Peux-tu chanter pour moi?"
+        },
+        {
+          "text": "Fais-moi rire!"
+        },
+        {
+          "text": "Dis-moi une autre blague!"
+        },
+        {
+          "text": "Dis-moi quelque chose de drôle!"
+        },
+        {
+          "text": "Connais-tu une bonne blague salace?"
+        },
+        {
+          "text": "Connais-tu une blague?"
+        },
+        {
+          "text": "Connaissez-vous des blagues?"
+        },
+        {
+          "text": "Amusons-nous!"
+        },
+        {
+          "text": "Amuse-moi!"
+        },
+        {
+          "text": "Aimes-tu rigoler?"
+        },
+        {
+          "text": "Aimes-tu raconter des blagues?"
+        },
+        {
+          "text": "Tu connais des jeux?"
+        },
+        {
+          "text": "Que pouvez-vous faire d'autre pour m'amuser?"
+        },
+        {
+          "text": "Surprends-moi avec quelque chose de drôle !"
+        },
+        {
+          "text": "Raconte moi une blague !"
+        },
+        {
+          "text": "Quelle est ta blague préférée?"
+        },
+        {
+          "text": "Quelle blague tu peux me raconter ?"
+        },
+        {
+          "text": "Pouvez-vous me dire une blague?"
+        }
+      ],
+      "description": "Demander une blague"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "horaires",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ouverts",
+          "synonyms": [
+            "horaires ",
+            "dates "
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "informations",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "infos",
+          "synonyms": [
+            "news ",
+            "actualités"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "abonnement",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "abonnement",
+          "synonyms": [
+            "abo ",
+            "abonnement trimestriel ",
+            "paiement récurrent "
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Connectez vous sur notre site XXX.fr/contact pour plus de renseignements. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1576625285454",
+      "conditions": "anything_else",
+      "dialog_node": "node_6_1576625434506",
+      "previous_sibling": "node_3_1576625364783"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Notre support est ouvert et actif tous les jours de la semaine de 9h à 19h. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1576625285454",
+      "conditions": "@sys-time",
+      "dialog_node": "node_3_1576625364783"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "En cas de problème avec le déblocage de vos leçons, contactez notre support à l'adresse suivante: support@myguitare.com"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_8_1576624510899",
+      "conditions": "anything_else",
+      "dialog_node": "response_3_1576624771906",
+      "previous_sibling": "response_3_1576624598288"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "le rythme de déblocage des cours est fixé à 1 leçon par semaine. Si votre leçon suivante ne s'est pas encore débloquée, il faut que vous attendiez une semaine après le déblocage de votre leçon précédente. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1576624510899",
+      "conditions": "@cours_guitare:cours",
+      "dialog_node": "response_3_1576624598288"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bonjour, que puis-je faire pour vous ? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_6_1576625831843",
+      "previous_sibling": "Bienvenue"
+    },
+    {
+      "type": "standard",
+      "title": "infos déblocage ",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#deblocage_lecon",
+      "dialog_node": "node_8_1576624510899",
+      "previous_sibling": "node_1_1576625285454"
+    },
+    {
+      "type": "standard",
+      "title": "Horaires ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Notre support est ouvert et actif tous les jours de la semaine de 9h à 19h. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#horaires",
+      "dialog_node": "node_1_1576625285454",
+      "previous_sibling": "node_6_1576625831843"
+    },
+    {
+      "type": "standard",
+      "title": "Tout le reste",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Je n'ai pas compris. Vous pouvez essayer de reformuler."
+              },
+              {
+                "text": "Pouvez-vous dire cela autrement ? Je ne comprends pas."
+              },
+              {
+                "text": "Je n'ai pas compris ce que vous voulez dire."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Tout le reste",
+      "previous_sibling": "node_8_1576624510899",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Bienvenue",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bonjour, comment puis-je vous aider ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bienvenue"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title"
+    },
+    "human_agent_assist": {
+      "prompt": "Vouliez-vous dire:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "assignment Processing with IA Part 1",
+  "language": "fr",
+  "description": ""
+}
